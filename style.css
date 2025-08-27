@@ -1,0 +1,51 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+width:100vw;
+height:100vh;
+background: linear-gradient(1deg,rgb(239, 51, 161),white);
+}
+.header{
+    width:100vw;
+    padding:15px;
+    text-align: center;
+    background:pink;
+    color:maroon;
+}
+table{
+    width:450px;
+    margin: 10px auto;
+    border:2px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+table thead th {
+    width:100%;
+    background: black;
+
+    }
+table thead th {
+    color:white;
+    padding: 20px;
+}
+table tbody{
+    width:100%;
+}
+table tbody tr{
+    border-bottom: 2px solid #222;
+}
+table tbody td{
+    text-align: center;
+    font-size: 14px;
+}
+table tbody .info{
+    background: black;
+    color:white;
+}
+table tbody tr:nth-child(even){
+    background: orange;
+}
